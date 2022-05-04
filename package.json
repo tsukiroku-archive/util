@@ -1,0 +1,14 @@
+{
+    "name": "tsukiroku-util",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tsukiroku/util.git"
+    },
+    "author": "tsukiroku",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tsukiroku/util/issues"
+    },
+    "homepage": "https://github.com/tsukiroku/util"
+}
