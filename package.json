@@ -1,6 +1,6 @@
 {
     "name": "tsukiroku-util",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "util/index.d.js",
     "repository": {
         "type": "git",
