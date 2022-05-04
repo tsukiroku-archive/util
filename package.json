@@ -1,6 +1,7 @@
 {
     "name": "tsukiroku-util",
-    "version": "1.0.0",
+    "version": "1.0.2",
+    "main": "util/index.d.js",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/tsukiroku/util.git"
@@ -10,5 +11,8 @@
     "bugs": {
         "url": "https://github.com/tsukiroku/util/issues"
     },
-    "homepage": "https://github.com/tsukiroku/util"
+    "homepage": "https://github.com/tsukiroku/util",
+    "dependencies": {
+        "tsukiroku-util": "^1.0.2"
+    }
 }
