@@ -12,7 +12,6 @@
  * # Result:
  * `{ "hello": "Hello!", "World": "world!" }`
  */
-
 const arrayToObject = <T>(array: Array<string>, callback: (k: any) => T) => {
     return array.reduce(
         (obj, key) => ({
