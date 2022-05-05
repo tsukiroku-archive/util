@@ -1,6 +1,6 @@
 {
     "name": "tsukiroku-util",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "main": "util/index.d.js",
     "repository": {
         "type": "git",
@@ -12,7 +12,7 @@
         "url": "https://github.com/tsukiroku/util/issues"
     },
     "homepage": "https://github.com/tsukiroku/util",
-    "dependencies": {
-        "tsukiroku-util": "^1.0.2"
+    "scripts": {
+        "test": "tsc && node dist/test.js"
     }
 }
