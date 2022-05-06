@@ -1,7 +1,9 @@
 {
-    "name": "tsukiroku-util",
-    "version": "1.0.94",
-    "main": "dist/index.js",
+    "name": "@tsukiroku/util",
+    "version": "2.0.1",
+    "main": "dist/util/index.js",
+    "types": "dist/util/index.d.ts",
+    "description": "Utility functions for TypeScript",  
     "repository": {
         "type": "git",
         "url": "git+https://github.com/tsukiroku/util.git"
@@ -14,6 +16,5 @@
     "homepage": "https://github.com/tsukiroku/util",
     "scripts": {
         "test": "tsc && node dist/test.js"
-    },
-    "types": "dist/index.d.ts"
+    }
 }
