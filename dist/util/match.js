@@ -4,7 +4,7 @@ exports.match = void 0;
 /**
  *
  * @param v Generic T
- * @param matchs Array of IMatch<T>
+ * @param matchs Array of IMatch<U>
  *
  * # Example:
  * ```ts
