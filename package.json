@@ -1,6 +1,6 @@
 {
     "name": "@tsukiroku/util",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "main": "dist/util/index.js",
     "types": "dist/util/index.d.ts",
     "description": "Utility functions for TypeScript",  
