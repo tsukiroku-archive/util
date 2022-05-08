@@ -1,11 +1,11 @@
-interface IMatch<T> {
+interface IMatch<T, U> {
     v?: T;
-    then: (v?: T) => any;
+    then: (v?: T | U) => any;
 }
 /**
  *
  * @param v Generic T
- * @param matchs Array of IMatch<T>
+ * @param matchs Array of IMatch<U>
  *
  * # Example:
  * ```ts
@@ -19,5 +19,5 @@ interface IMatch<T> {
  * # Result:
  * `three`
  */
-declare const match: <T>(v: T, ...matchs: IMatch<T>[]) => T;
+declare const match: <T, U>(v: T, ...matchs: IMatch<T, U>[]) => T;
 export { match };
