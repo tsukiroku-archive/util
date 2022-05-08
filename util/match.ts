@@ -1,12 +1,12 @@
-interface IMatch<T> {
+interface IMatch<T, U> {
     v?: T;
-    then: (v?: T) => any;
+    then: (v?: T | U) => any;
 }
 
 /**
  * 
  * @param v Generic T
- * @param matchs Array of IMatch<T>
+ * @param matchs Array of IMatch<U>
  *
  * # Example:
  * ```ts
@@ -20,7 +20,7 @@ interface IMatch<T> {
  * # Result:
  * `three`
  */
-const match = <T>(v: T, ...matchs: Array<IMatch<T>>) => {
+const match = <T, U>(v: T, ...matchs: Array<IMatch<T, U>>) => {
     let result: T = v;
     if (!matchs.includes({ v: v, then: () => { } })) {
         matchs.forEach(m => {
